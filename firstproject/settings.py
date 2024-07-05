@@ -82,7 +82,8 @@ DATABASES = {
         'NAME': 'Youtube',
         'USER': 'postgres',
         'PASSWORD':'Kanna4054g*',
-        'HOST':'localhost'
+        'HOST':'localhost',
+        'PORT':'5432'
     }
 }
 
