@@ -79,10 +79,10 @@ WSGI_APPLICATION = 'firstproject.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'Youtube',
-        'USER': 'postgres',
+        'NAME': 'postgres',
+        'USER': 'root',
         'PASSWORD':'Kanna4054g*',
-        'HOST':'localhost',
+        'HOST':'postgresql-rds-naive-vanilla-7xrw.czgsme2qil47.us-west-2.rds.amazonaws.com',
         'PORT':'5432'
     }
 }
