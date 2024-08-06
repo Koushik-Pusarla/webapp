@@ -70,19 +70,27 @@
                         color: white;
                     }
 
+                    .logout a:hover {
+                        opacity: 0.8;
+
+                    }
+
                     .login {
                         padding: 6px 8px;
                         border-radius: 4px;
-                        background-color: rgb(0, 153, 255);
-                        border: none;
+                        border-width: 1px;
                         cursor: pointer;
-                        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
                     }
 
                     .login a {
                         text-decoration: none;
-                        color: white;
+                        color: black;
                     }
+
+                    .login a:hover {
+                        color: red;
+                    }
+                    
                 </style>
                 {% if user.is_authenticated %}
                 <p style="padding-left: 10px;">Hello, {{user.username}}</p>
